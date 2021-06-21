@@ -31,10 +31,10 @@ const imageStyleProps: IImageStyles = {
 export default (props: HomeScreenProps): JSX.Element => {
   const iconName = 'SkypeCircleCheck';
   const imageProps = { src: heroSVG.toString() };
-  const headerTitle = 'Exceptionally simple video calling';
+  const headerTitle = 'Hadassah Communication Services';
   const startCallButtonText = 'Start a call';
   const listItems = [
-    'Customize with your web stack',
+    'Digital visits with you patiens',
     'Connect with users with seamless collaboration across web',
     'High quality, low latency capabilities for an uninterrupted calling experience',
     'Learn about this'
@@ -53,10 +53,6 @@ export default (props: HomeScreenProps): JSX.Element => {
                 </li>
                 <li className={listItemStyle}>
                     <Icon className={iconStyle} iconName={iconName} /> {listItems[2]}
-                </li>
-                <li className={listItemStyle}>
-                    <Icon className={iconStyle} iconName={iconName} /> {listItems[3]}{' '}
-                    <a href="https://aka.ms/ACS-CallingSample">sample</a>
                 </li>
             </ul>
         </Stack>
