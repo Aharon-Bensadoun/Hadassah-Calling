@@ -1,5 +1,7 @@
 # Group Calling Sample
 
+This is a copy from microsoft repository, customized for my environment
+
 This is a sample application to show how the ACS Calling Web SDK can be used to build a group calling experience. 
 The client-side application is a React based user interface which uses Redux for handling complex state while leveraging Microsoft Fluent UI. 
 Powering this front-end is a C# web application powered by ASP.net Core to connect this application with Azure Communication Services.
